@@ -13,4 +13,4 @@ if __name__ == "__main__":
         b = float(input("Nhập hệ số b: "))
         print(solve_linear_equation(a, b))
     except ValueError:
-        
+        print("Vui lòng nhập số hợp lệ")
